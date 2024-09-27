@@ -1,0 +1,18 @@
+[
+    {
+      "title": "Minesweeper",
+      "imageSrc": "projects/mine.png",
+      "description": "A C++ implementation of the popular game Minesweeper.",
+      "skills": ["C++", "SFML", "School"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/Seb-Dion/MineProject"
+    },
+    {
+      "title": "Underground Artists",
+      "imageSrc": "projects/artists.png",
+      "description": "This project utilizes algorithms to recommend niche artists.",
+      "skills": ["C++", "SFML", "Personal", "JSON"],
+      "demo": "https://www.example.com",
+      "source": "hhttps://github.com/Seb-Dion/FinalProject"
+    }
+  ]

@@ -1,0 +1,18 @@
+[
+    {
+      "role": "Reporting Analyst Intern",
+      "organisation": "Springbig",
+      "startDate": "Dec, 2022",
+      "endDate": "Jan, 2023",
+      "experiences": ["Performed Research", "Populated AWS database"],
+      "imageSrc": "history/springbig.png"
+    },
+    {
+      "role": "Teacher Assistant",
+      "organisation": "BCPS",
+      "startDate": "Aug, 2021",
+      "endDate": "Jun, 2022",
+      "experiences": ["Troubleshooting Laptops", "Fixed IT related issues"],
+      "imageSrc": "history/bcps.png"
+    }
+  ]
