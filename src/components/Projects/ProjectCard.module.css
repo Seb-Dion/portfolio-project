@@ -4,8 +4,8 @@
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-    box-shadow: 0 16px 14px 0 #04152d;
+    background: linear-gradient(180deg, var(--color-primary) 0%, var(--color-dark) 100%);
+    box-shadow: 0 16px 14px 0 var(--color-bg); /* Dark shadow */
     padding: 18px 24px;
     max-width: 345px;
     margin: 20px 100px;
@@ -41,7 +41,7 @@
     font-size: 25px;
     font-weight: 400;
     border-radius: 100px;
-    background: var(--color-dark);
+    background: var(--color-secondary); /* Dark purple */
     padding: 2px 22px;
 }
   
@@ -58,7 +58,7 @@
     font-size: 30px;
     font-weight: 600;
     border-radius: 100px;
-    background: var(--color-primary);
+    background: var(--color-primary); /* Bright purple */
     padding: 1px 22px;
     transition: transform 0.3s ease;
 }

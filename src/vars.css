@@ -1,12 +1,11 @@
 :root {
-    /* colors */
-    --color-text: #fff;
-    --color-primary: #576cbc;
-    --color-secondary: #19376d;
-    --color-dark: #0b2447;
-    --color-bg: #04152d;
+    /* Colors - Brighter Shades of Purple and Black */
+    --color-text: #f0f0f0; /* Lighter gray for text */
+    --color-primary: #a349a4; /* Brighter purple for primary elements */
+    --color-secondary: #703070; /* Lighter purple for secondary elements */
+    --color-dark: #333333; /* Lighter dark gray for contrast */
+    --color-bg: #1a1a1a; /* Dark gray for background */
 
     /* Fonts */
     --font-roboto: "Roboto";
-    
 }

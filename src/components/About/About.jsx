@@ -5,10 +5,7 @@ import { motion } from "framer-motion";
 
 export const About = () => {
     return (
-        <motion.section className={styles.container} id="about"
-        initial = {{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}>
+        <section className={styles.container} id="about">
             <h2 className={styles.title}>About</h2>
             <div className={styles.content}>
                 <img src={getImageUrl("about/aboutPic.png")} alt="Coder Pic" className={styles.aboutImage}/>
@@ -45,6 +42,6 @@ export const About = () => {
                     </li>
                 </ul>
             </div>
-        </motion.section>
+        </section>
     );
 };
