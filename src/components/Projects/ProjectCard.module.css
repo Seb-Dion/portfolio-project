@@ -18,6 +18,7 @@
 .title {
     font-size: 25px;
     font-weight: 700;
+    text-decoration: underline;
 }
 
 .description {
@@ -59,4 +60,9 @@
     border-radius: 100px;
     background: var(--color-primary);
     padding: 1px 22px;
+    transition: transform 0.3s ease;
+}
+
+.link:hover {
+    transform: scale(1.1);
 }
