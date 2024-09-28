@@ -2,7 +2,7 @@
   "name": "portfolio-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Seb-Dion.github.io/Seb-Dion",
+  "homepage": "https://Seb-Dion.github.io/personal-portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
