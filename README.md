@@ -1,6 +1,6 @@
 # Personal Portfolio Website using React
 
-![Alt text](./assets/port.png)
+!["Website Preview"](./assets/port.png)
 
 Currently, two official plugins are available:
 
