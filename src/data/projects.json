@@ -1,11 +1,11 @@
 [
     {
-      "title": "Minesweeper",
-      "imageSrc": "projects/mine.png",
-      "description": "A C++ implementation of the popular game Minesweeper.",
-      "skills": ["C++", "SFML", "School"],
+      "title": "Budget Buddy",
+      "imageSrc": "projects/DashboardPic.png",
+      "description": "An expense tracker that helps users manage their finances by tracking income, expenses, budgets, and streaks for financial milestones.",
+      "skills": ["Flask", "React", "JWT", "SQLAlchemy"],
       "demo": "https://www.example.com",
-      "source": "https://github.com/Seb-Dion/MineProject"
+      "source": "https://github.com/Seb-Dion/budget-buddy"
     },
     {
       "title": "Underground Artists",
