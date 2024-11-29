@@ -4,43 +4,86 @@ import styles from "./About.module.css";
 import { motion } from "framer-motion";
 
 export const About = () => {
+    const cardVariants = {
+        hidden: { opacity: 0, y: 20 },
+        visible: { opacity: 1, y: 0 }
+    };
+
     return (
         <section className={styles.container} id="about">
-            <h2 className={styles.title}>About</h2>
+            <motion.h2 
+                className={styles.title}
+                initial={{ opacity: 0, y: -20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+            >
+                About Me
+            </motion.h2>
             <div className={styles.content}>
-                <img src={getImageUrl("about/aboutPic.png")} alt="Coder Pic" className={styles.aboutImage}/>
-                <ul className={styles.aboutItems}>
-                    <li className={styles.aboutItem}>
-                        <img src={getImageUrl("about/schoolBag.png")} alt="School bag" />
-                        <div className={styles.aboutItemText}>
-                            <h3>University Student</h3>
-                            <p>
-                                I am a third year computer science student at the University of Florida, expected to graduate
-                                in 2026
-                            </p>
+                <motion.div 
+                    className={styles.imageSection}
+                    initial={{ opacity: 0, x: -50 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.5 }}
+                >
+                    <img 
+                        src={getImageUrl("about/aboutPic.png")} 
+                        alt="My workspace" 
+                        className={styles.aboutImage}
+                    />
+                </motion.div>
+                <div className={styles.aboutItems}>
+                    <motion.div 
+                        className={styles.card}
+                        variants={cardVariants}
+                        initial="hidden"
+                        whileInView="visible"
+                        transition={{ duration: 0.5, delay: 0.1 }}
+                    >
+                        <div className={styles.cardIcon}>
+                            <img src={getImageUrl("about/schoolBag.png")} alt="Education" />
                         </div>
-                    </li>
-                    <li className={styles.aboutItem}>
-                        <img src={getImageUrl("about/web-development.png")} alt="Computer" />
-                        <div className={styles.aboutItemText}>
-                            <h3>Relevant Coursework</h3>
-                            <p>
-                                I have taken Data Structures and Algorithms, along with Programming Fundamentals. I currently own 
-                                a 3.41 GPA, which has landed me on the Dean's list
-                            </p>
+                        <div className={styles.cardContent}>
+                            <h3>Education</h3>
+                            <p>Computer Science Student at University of Florida</p>
+                            <p className={styles.highlight}>Expected Graduation: 2026</p>
                         </div>
-                    </li>
-                    <li className={styles.aboutItem}>
-                        <img src={getImageUrl("about/teaching.png")} alt="School club" />
-                        <div className="{styles.aboutItemText}">
-                            <h3>Extracirriculars</h3>
-                            <p>
-                                I am an active member of both the Software Engineering Club 
-                                and the Open Source Club at UF
-                            </p>
+                    </motion.div>
+
+                    <motion.div 
+                        className={styles.card}
+                        variants={cardVariants}
+                        initial="hidden"
+                        whileInView="visible"
+                        transition={{ duration: 0.5, delay: 0.2 }}
+                    >
+                        <div className={styles.cardIcon}>
+                            <img src={getImageUrl("about/web-development.png")} alt="Academics" />
                         </div>
-                    </li>
-                </ul>
+                        <div className={styles.cardContent}>
+                            <h3>Academic Achievement</h3>
+                            <p>Data Structures & Algorithms</p>
+                            <p className={styles.highlight}>GPA: 3.41 | Dean's List</p>
+                        </div>
+                    </motion.div>
+
+                    <motion.div 
+                        className={styles.card}
+                        variants={cardVariants}
+                        initial="hidden"
+                        whileInView="visible"
+                        transition={{ duration: 0.5, delay: 0.3 }}
+                    >
+                        <div className={styles.cardIcon}>
+                            <img src={getImageUrl("about/teaching.png")} alt="Activities" />
+                        </div>
+                        <div className={styles.cardContent}>
+                            <h3>Involvement</h3>
+                            <p>Active Member</p>
+                            <p className={styles.highlight}>Software Engineering & Open Source Club</p>
+                        </div>
+                    </motion.div>
+                </div>
             </div>
         </section>
     );

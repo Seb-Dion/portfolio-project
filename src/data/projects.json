@@ -1,18 +1,18 @@
 [
     {
       "title": "Budget Buddy",
-      "imageSrc": "projects/DashboardPic.png",
+      "imageSrc": "projects/dashy.png",
       "description": "An expense tracker that helps users manage their finances by tracking income, expenses, budgets, and streaks for financial milestones.",
       "skills": ["Flask", "React", "JWT", "SQLAlchemy"],
       "demo": "https://www.example.com",
       "source": "https://github.com/Seb-Dion/budget-buddy"
     },
     {
-      "title": "Underground Artists",
+      "title": "Harmonia",
       "imageSrc": "projects/artists.png",
-      "description": "This project utilizes algorithms to recommend niche artists.",
-      "skills": ["C++", "SFML", "Personal", "JSON"],
+      "description": "Utilizes the Spotify Web API to allow users to log and rate albums.",
+      "skills": ["Django", "React", "Personal", "SQLite"],
       "demo": "https://www.example.com",
-      "source": "hhttps://github.com/Seb-Dion/FinalProject"
+      "source": "hhttps://github.com/Seb-Dion/harmonia"
     }
   ]

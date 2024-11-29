@@ -26,5 +26,9 @@
     {
         "title": "JavaScript",
         "imageSrc": "skills/java.png"
+    },
+    {
+        "title": "SQL",
+        "imageSrc": "skills/sqll.png"
     }
 ]
