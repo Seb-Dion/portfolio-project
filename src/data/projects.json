@@ -9,7 +9,7 @@
     },
     {
       "title": "Harmonia",
-      "imageSrc": "projects/artists.png",
+      "imageSrc": "projects/harmoniaPic.png",
       "description": "Utilizes the Spotify Web API to allow users to log and rate albums.",
       "skills": ["Django", "React", "Personal", "SQLite"],
       "demo": "https://www.example.com",
